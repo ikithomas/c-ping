@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
   printf("The size of an int: %ld\n", sizeof(int));
   printf("The size of area: %ld\n", sizeof(areas));
   printf("Length of areas: %lu\n", sizeof(areas) / sizeof(int));
-  printf("1st and 2nd: %d, %d", areas[0], areas[10]);
+  printf("1st and 2nd: %d, %d", areas[0], areas[1]);
 
   printf("The size of a char: %ld\n", sizeof(char));
   printf("The size of name: %ld\n", sizeof(name));

@@ -1,13 +1,14 @@
 # Catalogue
 
 - ex1: Hello world
-- ex3: struct, typedef, and enum
+- ex3: struct, typedef, and enum, function
 - ex7: Data type
 - ex8: if, else, for
 - ex9: while
 - ex10: List of strings, switch
 - ex11: array and string
 - ex12: array and size of
+- ex13: more strings
 
 
 # Instruction
