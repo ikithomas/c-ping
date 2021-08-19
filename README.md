@@ -4,6 +4,7 @@
 - ex3: struct, typedef, and enum
 - ex7: Data type
 - ex8: if, else, for
+- ex9: while
 
 
 # Instructions
