@@ -2,10 +2,12 @@
 # -g: tell it to generate debug information
 CFLAGS=-Wall -g
 
-all: ex1 ex3 ex7 ex8 ex9
+executables := $(shell ls | grep .c | sed s/.c//)
+
+all: $(executables)
 
 clean:
-	rm -rf ex1 ex3 ex7 ex8 ex9 *.dSYM
+	rm -rf $(executables) *.dSYM
 
 recompile: clean all
 
