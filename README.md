@@ -6,6 +6,8 @@
 - ex8: if, else, for
 - ex9: while
 - ex10: List of strings, switch
+- ex11: array and string
+- ex12: array and size of
 
 
 # Instruction
