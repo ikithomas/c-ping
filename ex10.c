@@ -13,5 +13,19 @@ int main(int argc, char *argv[]){
     printf("state %d: %s\n", i, states[i]);
   }
 
+  switch(num_states){
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+      printf("All down here\n");
+      break;
+    default:
+      printf("Nothing hit\n");
+      break;
+  }
+
   return 0;
 }
