@@ -5,9 +5,10 @@
 - ex7: Data type
 - ex8: if, else, for
 - ex9: while
+- ex10: List of strings
 
 
-# Instructions
+# Instruction
 
 This repository will walk through how to implement a simple ping in `c`.
 
