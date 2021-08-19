@@ -1,3 +1,13 @@
+# Catalogue
+
+- ex1: Hello world
+- ex3: struct, typedef, and enum
+- ex7: Data type
+- ex8: if, else, for
+
+
+# Instructions
+
 This repository will walk through how to implement a simple ping in `c`.
 
 ```bash
