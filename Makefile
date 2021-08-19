@@ -2,10 +2,10 @@
 # -g: tell it to generate debug information
 CFLAGS=-Wall -g
 
-all: ex1 ex3
+all: ex1 ex3 ex7
 
 clean:
-	rm -rf ex1 ex3 *.dSYM
+	rm -rf ex1 ex3 ex7 *.dSYM
 
 recompile: clean all
 
