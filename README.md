@@ -5,7 +5,7 @@
 - ex7: Data type
 - ex8: if, else, for
 - ex9: while
-- ex10: List of strings
+- ex10: List of strings, switch
 
 
 # Instruction
