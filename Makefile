@@ -1,15 +1,19 @@
 # -Wall: tells it to print all warning
 # -g: tell it to generate debug information
 CFLAGS=-Wall -g
+CC=cc
 
-executables := $(shell ls | grep .c | sed s/.c//)
+TARGETS := $(shell find src -name "*.c" | sed 's/\.c//')
 
-all: $(executables)
+all: $(TARGETS)
+
+.c:
+	$(CC) $(CFLAGS) $< -o $(shell echo $< | sed s/src/artifacts/ | sed 's/\.c//')
+
+debug:
+	@echo $(TARGETS)
 
 clean:
-	rm -rf $(executables) *.dSYM
+	rm -r artifacts/*
 
 recompile: clean all
-
-lint:
-	splint *.c -paramuse -redef
